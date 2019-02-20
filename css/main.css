@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #bdbdbd;
+  font-family: Marker Felt, fantasy; }
+
+.container {
+  width: 1000px;
+  margin: auto; }
+
+/*# sourceMappingURL=main.css.map */
