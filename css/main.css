@@ -9,6 +9,14 @@ body {
 
 .container {
   width: 1000px;
-  margin: auto; }
+  margin: auto;
+  background-color: pink; }
+
+header {
+  background-color: #838181;
+  height: 150px;
+  opacity: 0,5;
+  position: fixed;
+  width: 1000px; }
 
 /*# sourceMappingURL=main.css.map */
