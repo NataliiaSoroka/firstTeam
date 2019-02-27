@@ -10,6 +10,7 @@ body{
 .container{
     width: 1000px;
     margin: auto;
+
 }
 
 
@@ -92,4 +93,11 @@ span a {
 }
 span:last-child {
     border-right: none;
+    background-color: pink;
+}
+header{
+    background-color: rgb(131, 129, 129);
+    height: 150px;
+    opacity: 0,5;
+    width: 1000px;
 }
