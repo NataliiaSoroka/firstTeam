@@ -1,29 +1,95 @@
-/*
-Error: wrong number of arguments (4 for 3) for `rgb'
-        on line 87 of /Users/christina/Documents/Front End Basic/My Homework/Lesson 17_2/firstTeam/css/main.scss
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-82: span {
-83:     display: inline-block;
-84:     height: 30px;
-85:     border-right: 1px solid #696969;
-86:     padding: 5px;
-87:     color: rgb(53, 52, 52, 0.6);
-88:     font-size: 18px;
-89: }
-90: span a {
-91:     color: rgb(53, 52, 52, 0.6);
-92: }
-
-
-
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: wrong number of arguments (4 for 3) for `rgb'\A         on line 87 of /Users/christina/Documents/Front End Basic/My Homework/Lesson 17_2/firstTeam/css/main.scss\A \A 82: span {\A 83:     display: inline-block;\A 84:     height: 30px;\A 85:     border-right: 1px solid #696969;\A 86:     padding: 5px;\A 87:     color: rgb(53, 52, 52, 0.6);\A 88:     font-size: 18px;\A 89: }\A 90: span a {\A 91:     color: rgb(53, 52, 52, 0.6);\A 92: }"; }
+body {
+  background-color: #bdbdbd;
+  font-family: Marker Felt, fantasy; }
 
 .container {
   width: 1000px;
-  margin: auto;
+  margin: auto; }
+
+footer .bottom_menu {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between; }
+
+.bottom_menu1 {
+  float: left;
+  width: 23%; }
+
+.bottom_menu1 p {
+  padding: 0px 0px 10px 0px; }
+
+.bottom_menu1 h1 {
+  padding-left: 0px; }
+
+.bottom_menu1 a {
+  color: #353434; }
+
+.icon1 {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-size: cover;
+  background-image: url(Twitter.png);
+  margin: 7px 3px 20px 3px; }
+
+.icon2 {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-size: cover;
+  background-image: url(Facebook.png);
+  margin: 7px 3px 20px 3px; }
+
+.icon3 {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-size: cover;
+  background-image: url(Instagram.png);
+  margin: 7px 3px 20px 3px; }
+
+.icon4 {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-size: cover;
+  background-image: url(Whatsapp.png);
+  margin: 7px 3px 20px 3px; }
+
+.icon5 {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-size: cover;
+  background-image: url(Pinterest.png);
+  margin: 7px 3px 20px 3px; }
+
+.bottom {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 70px 0px; }
+
+span {
+  display: inline-block;
+  height: 30px;
+  border-right: 1px solid #696969;
+  padding: 5px;
+  color: rgba(65, 63, 63, 0.6);
+  font-size: 18px; }
+
+span a {
+  color: rgba(65, 63, 63, 0.6); }
+
+span:last-child {
+  border-right: none;
   background-color: pink; }
 
 header {
@@ -33,4 +99,3 @@ header {
   width: 1000px; }
 
 /*# sourceMappingURL=main.css.map */
-
