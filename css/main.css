@@ -1,11 +1,24 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
+/*
+Error: Invalid CSS after "...und-color: pink": expected "{", was ";"
+        on line 59 of C:\Users\mryah\Desktop\kursi\git\firstTeam\css\main.scss
 
-body {
-  background-color: #bdbdbd;
-  font-family: Marker Felt, fantasy; }
+54: }
+55: .container{
+56:     width: 1400px;
+57:     margin: auto;
+58: <<<<<<< HEAD
+59:     background-color: pink;
+60: }
+61: header{
+62:     background-color: rgb(131, 129, 129);
+63:     height: 150px;
+64:     opacity: 0,5;
+
+
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...und-color: pink\": expected \"{\", was \";\"\A         on line 59 of C:\Users\mryah\Desktop\kursi\git\firstTeam\css\main.scss\A \A 54: }\A 55: .container{\A 56:     width: 1400px;\A 57:     margin: auto;\A 58: <<<<<<< HEAD\A 59:     background-color: pink;\A 60: }\A 61: header{\A 62:     background-color: rgb(131, 129, 129);\A 63:     height: 150px;\A 64:     opacity: 0,5;"; }
 
 .container {
   width: 1000px;
@@ -98,4 +111,4 @@ header {
   opacity: 0,5;
   width: 1000px; }
 
-/*# sourceMappingURL=main.css.map */
+
