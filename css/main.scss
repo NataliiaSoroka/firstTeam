@@ -55,7 +55,90 @@ body{
 .container{
     width: 1400px;
     margin: auto;
-<<<<<<< HEAD
+
+
+}
+
+
+footer .bottom_menu {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom_menu1 {
+    float: left;
+    width: 23%;
+}
+.bottom_menu1 p {
+    padding: 0px 0px 10px 0px;
+}
+.bottom_menu1 h1 {
+    padding-left: 0px;
+}
+.bottom_menu1 a {
+    color:#353434;
+}
+.icon1 {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    background-image: url(Twitter.png);
+    margin: 7px 3px 20px 3px;
+}
+.icon2 {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    background-image: url(Facebook.png);
+    margin: 7px 3px 20px 3px;
+}
+.icon3 {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    background-image: url(Instagram.png);
+    margin: 7px 3px 20px 3px;
+}
+.icon4 {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    background-image: url(Whatsapp.png);
+    margin: 7px 3px 20px 3px;
+}
+.icon5 {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    background-image: url(Pinterest.png);
+    margin: 7px 3px 20px 3px;
+}
+.bottom {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 70px 0px;
+}
+span {
+    display: inline-block;
+    height: 30px;
+    border-right: 1px solid #696969;
+    padding: 5px;
+    color: rgba(65, 63, 63, 0.6);
+    font-size: 18px;
+}
+span a {
+    color: rgba(65, 63, 63, 0.6);
+}
+span:last-child {
+    border-right: none;
     background-color: pink;
 }
 header{
@@ -63,8 +146,7 @@ header{
     height: 150px;
     opacity: 0,5;
     width: 1000px;
-    
-=======
+
     
 }
 .body{
@@ -158,5 +240,5 @@ header{
         }
     }
 
->>>>>>> new
+
 }
