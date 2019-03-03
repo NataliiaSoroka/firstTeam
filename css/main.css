@@ -45,7 +45,7 @@ body {
   top: -300px; }
 
 .container {
-  width: 1400px;
+  width: 1200px;
   margin: auto; }
 
 footer .bottom_menu {
@@ -132,11 +132,52 @@ span:last-child {
 header {
   background-color: #838181;
   height: 150px;
-  opacity: 0,5;
-  width: 1000px; }
+  width: 1200px;
+  margin: auto;
+  opacity: 0.7;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px; }
+  header a {
+    color: #464646;
+    text-decoration: none; }
+  header img {
+    width: 120px;
+    border-radius: 6px;
+    box-shadow: 10px 0 10px black;
+    opacity: 1; }
+  header .item-menu {
+    font-size: 32px;
+    border: 2px solid #2e2d2d;
+    border-radius: 10px;
+    padding: 10px; }
+    header .item-menu:hover {
+      background-color: #919191; }
+
+.about-me {
+  margin-top: 20px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px; }
+  .about-me img {
+    position: absolute;
+    opacity: 0.9; }
+  .about-me .text {
+    position: absolute;
+    color: #fafafa;
+    font-size: 32px;
+    z-index: 1000;
+    margin: 20px;
+    background-color: #919191;
+    opacity: 0.8;
+    border-radius: 10px; }
 
 .body {
-  width: 1400px; }
+  width: 1200px; }
   .body .box-body {
     border-radius: 5px;
     background-color: white;
