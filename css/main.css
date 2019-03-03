@@ -1,27 +1,51 @@
-/*
-Error: Invalid CSS after "...und-color: pink": expected "{", was ";"
-        on line 59 of C:\Users\mryah\Desktop\kursi\git\firstTeam\css\main.scss
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-54: }
-55: .container{
-56:     width: 1400px;
-57:     margin: auto;
-58: <<<<<<< HEAD
-59:     background-color: pink;
-60: }
-61: header{
-62:     background-color: rgb(131, 129, 129);
-63:     height: 150px;
-64:     opacity: 0,5;
+@keyframes bouncing {
+  0% {
+    transform: rotate(0); }
+  25% {
+    transform: rotate(1deg);
+    width: 240px;
+    height: 55px; }
+  50% {
+    transform: rotate(0deg);
+    width: 250px;
+    height: 60px; }
+  75% {
+    transform: rotate(-1deg);
+    width: 240px;
+    height: 55px; }
+  100% {
+    transform: rotate(0);
+    width: 250px;
+    height: 60px; } }
+body {
+  background-color: white;
+  font-family: Marker Felt, fantasy; }
 
+.menu-text {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  position: absolute;
+  bottom: 0%;
+  font-size: 30px;
+  color: white;
+  opacity: 1; }
 
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...und-color: pink\": expected \"{\", was \";\"\A         on line 59 of C:\Users\mryah\Desktop\kursi\git\firstTeam\css\main.scss\A \A 54: }\A 55: .container{\A 56:     width: 1400px;\A 57:     margin: auto;\A 58: <<<<<<< HEAD\A 59:     background-color: pink;\A 60: }\A 61: header{\A 62:     background-color: rgb(131, 129, 129);\A 63:     height: 150px;\A 64:     opacity: 0,5;"; }
+.position {
+  position: relative;
+  top: 300px; }
+
+.position1 {
+  position: relative;
+  top: -300px; }
 
 .container {
-  width: 1000px;
+  width: 1400px;
   margin: auto; }
 
 footer .bottom_menu {
@@ -48,7 +72,7 @@ footer .bottom_menu {
   height: 40px;
   width: 40px;
   background-size: cover;
-  background-image: url(Twitter.png);
+  background-image: url(./img/Twitter.png);
   margin: 7px 3px 20px 3px; }
 
 .icon2 {
@@ -56,7 +80,7 @@ footer .bottom_menu {
   height: 40px;
   width: 40px;
   background-size: cover;
-  background-image: url(Facebook.png);
+  background-image: url(./img/Facebook.png);
   margin: 7px 3px 20px 3px; }
 
 .icon3 {
@@ -64,7 +88,7 @@ footer .bottom_menu {
   height: 40px;
   width: 40px;
   background-size: cover;
-  background-image: url(Instagram.png);
+  background-image: url(./img/Instagram.png);
   margin: 7px 3px 20px 3px; }
 
 .icon4 {
@@ -72,7 +96,7 @@ footer .bottom_menu {
   height: 40px;
   width: 40px;
   background-size: cover;
-  background-image: url(Whatsapp.png);
+  background-image: url(./img/Whatsapp.png);
   margin: 7px 3px 20px 3px; }
 
 .icon5 {
@@ -80,7 +104,7 @@ footer .bottom_menu {
   height: 40px;
   width: 40px;
   background-size: cover;
-  background-image: url(Pinterest.png);
+  background-image: url(./img/Pinterest.png);
   margin: 7px 3px 20px 3px; }
 
 .bottom {
@@ -111,4 +135,76 @@ header {
   opacity: 0,5;
   width: 1000px; }
 
+.body {
+  width: 1400px; }
+  .body .box-body {
+    border-radius: 5px;
+    background-color: white;
+    width: 1200px;
+    margin: auto; }
+    .body .box-body .div-flex {
+      margin: 20px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap; }
+      .body .box-body .div-flex .div-flex__items {
+        position: relative;
+        width: 386px;
+        height: 300px;
+        border-radius: 5px;
+        background-position: center;
+        background-size: cover; }
+    .body .box-body .div-flex2 {
+      margin: 20px 0px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap; }
+      .body .box-body .div-flex2 .div-flex2__items {
+        position: relative;
+        width: 588px;
+        height: 250px;
+        border-radius: 5px;
+        background-position: center;
+        background-size: cover; }
+    .body .box-body .div-flex3 {
+      display: flex;
+      margin-bottom: 20px;
+      justify-content: space-between;
+      flex-wrap: wrap; }
+      .body .box-body .div-flex3 .div-flex3__items {
+        position: relative;
+        width: 588px;
+        height: 250px;
+        border-radius: 5px;
+        background-position: center;
+        background-size: cover; }
+    .body .box-body .hide {
+      display: none; }
+    .body .box-body .hide1 {
+      display: none; }
+  .body .button {
+    display: flex;
+    justify-content: center; }
+    .body .button button {
+      width: 250px;
+      height: 60px;
+      margin: 20px auto;
+      text-align: center;
+      background-color: rgba(0, 101, 253, 0.685);
+      border: none;
+      border-radius: 10px;
+      outline: none;
+      text-decoration: none;
+      color: white;
+      font-size: 25px;
+      font-weight: 800;
+      animation-name: bouncing;
+      animation-duration: 3s;
+      animation-timing-function: linear;
+      animation-direction: alternate;
+      animation-iteration-count: infinite; }
+    .body .button button:hover {
+      background-color: #0065fd;
+      box-shadow: 0 5px 5px #919191; }
 
+/*# sourceMappingURL=main.css.map */
