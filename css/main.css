@@ -225,7 +225,8 @@ header {
       display: none; }
   .body .button {
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    height: 200px; }
     .body .button button {
       width: 250px;
       height: 60px;
