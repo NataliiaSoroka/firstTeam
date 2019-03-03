@@ -72,7 +72,7 @@ footer .bottom_menu {
   height: 40px;
   width: 40px;
   background-size: cover;
-  background-image: url(./img/Twitter.png);
+  background-image: url(../img/Twitter.png);
   margin: 7px 3px 20px 3px; }
 
 .icon2 {
@@ -80,7 +80,7 @@ footer .bottom_menu {
   height: 40px;
   width: 40px;
   background-size: cover;
-  background-image: url(./img/Facebook.png);
+  background-image: url(../img/Facebook.png);
   margin: 7px 3px 20px 3px; }
 
 .icon3 {
@@ -88,7 +88,7 @@ footer .bottom_menu {
   height: 40px;
   width: 40px;
   background-size: cover;
-  background-image: url(./img/Instagram.png);
+  background-image: url(../img/Instagram.png);
   margin: 7px 3px 20px 3px; }
 
 .icon4 {
@@ -96,7 +96,7 @@ footer .bottom_menu {
   height: 40px;
   width: 40px;
   background-size: cover;
-  background-image: url(./img/Whatsapp.png);
+  background-image: url(../img/Whatsapp.png);
   margin: 7px 3px 20px 3px; }
 
 .icon5 {
@@ -104,7 +104,7 @@ footer .bottom_menu {
   height: 40px;
   width: 40px;
   background-size: cover;
-  background-image: url(./img/Pinterest.png);
+  background-image: url(../img/Pinterest.png);
   margin: 7px 3px 20px 3px; }
 
 .bottom {
